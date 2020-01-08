@@ -18,6 +18,7 @@ data/casia_mtcnncaffe_aligned \
 --transpose_input --image_size 96 112
 ```
 To get the image path list for training, enter the` /data` directory, and run the notebook `write_path.ipynb`.
+You will get `list_casia.txt` in `/data` directory.
 
 2. Download the original images of LFW dataset and align the images with the following command:
 ```
